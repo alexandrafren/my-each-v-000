@@ -10,6 +10,7 @@ def my_each(num)
     yield(num[2])
     counter += 1
     yield(num[3])
+    counter += 1
   end
 end
 
