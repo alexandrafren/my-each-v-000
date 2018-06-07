@@ -15,5 +15,5 @@ def my_each(num)
 end
 
 my_each(num) do |i|
-  puts i
+  print i
 end
