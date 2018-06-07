@@ -12,7 +12,7 @@ def my_each(num)
     yield(num[3])
     counter += 1
   end
-  return my_each
+  return num
 end
 
 my_each(num) do |i|
